@@ -1,4 +1,4 @@
-function Actualizar() {
+function updateClock() {
     const now = new Date();
   
     // Actualizar relojD
@@ -23,5 +23,5 @@ function Actualizar() {
     hora.style.transform = `rotate(${horasDegrees}deg)`;
   }
   
-  Actualizar();
+  updateClock();
   setInterval(updateClock, 1000);
